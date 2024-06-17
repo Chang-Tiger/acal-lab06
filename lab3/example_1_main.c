@@ -26,7 +26,7 @@ int main(){
   puts("C code sum_c=");
   puts(str);
   puts("\n");
-  out = sum_ex1_asm_wrong(n);
+  out = sum_ex1_asm(n);
   puts("ASM code sum_ex1_asm=");
   itoa(out,str,10);
   puts(str);

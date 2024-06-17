@@ -20,7 +20,7 @@ int fibonacci_c(int n) {
 int fibonacci_asm(int n);
 
 int main() {
-    int n = 6;    // setup input value n
+    int n = 16;    // setup input value n
     int out = 0; // setup output value fibonacci(n)
 
     out = fibonacci_c(n);
